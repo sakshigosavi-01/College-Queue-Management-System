@@ -1,0 +1,175 @@
+.register-page {
+  min-height: 100vh;
+  padding: 60px 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  background:
+    radial-gradient(circle at 20% 20%, #35145f, transparent 35%),
+    radial-gradient(circle at 80% 80%, #5b145b, transparent 35%),
+    #050517;
+
+  position: relative;
+  overflow: hidden;
+}
+
+.register-page::before,
+.register-page::after {
+  content: "✦";
+  position: absolute;
+  color: #ff91d7;
+  font-size: 20px;
+  animation: starBlink 2s infinite alternate;
+}
+
+.register-page::before {
+  top: 15%;
+  left: 15%;
+}
+
+.register-page::after {
+  bottom: 18%;
+  right: 15%;
+  animation-delay: 1s;
+}
+
+.register-box {
+  width: 400px;
+  padding: 40px;
+  text-align: center;
+
+  background: rgba(35, 8, 60, 0.92);
+  border: 1px solid rgba(255, 145, 215, 0.45);
+  border-radius: 28px;
+
+  box-shadow:
+    0 0 30px rgba(255, 79, 163, 0.2),
+    inset 0 0 25px rgba(123, 44, 191, 0.15);
+
+  position: relative;
+  z-index: 2;
+}
+
+.back-home {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 20px;
+  background: #7b2cbf;
+  color: white;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.back-home:hover {
+  background: #ff4fa3;
+}
+
+.register-icon {
+  font-size: 60px;
+  margin-top: 20px;
+}
+
+.register-tag {
+  color: #ff91d7;
+  letter-spacing: 3px;
+  font-weight: bold;
+}
+
+.register-box h1 {
+  color: white;
+  font-size: 38px;
+  margin: 10px 0;
+}
+
+.register-box h1 span {
+  color: #ff4fa3;
+}
+
+.register-text {
+  color: #eadcf5;
+  line-height: 1.5;
+  margin-bottom: 25px;
+}
+
+.register-box label {
+  display: block;
+  text-align: left;
+  color: #f0cfff;
+  margin: 15px 0 7px;
+  font-weight: bold;
+}
+
+.register-box input {
+  width: 100%;
+  box-sizing: border-box;
+  padding: 14px;
+  border-radius: 12px;
+
+  border: 1px solid #c77dff;
+  background: #180027;
+  color: white;
+
+  outline: none;
+  font-size: 15px;
+}
+
+.register-box input:focus {
+  border-color: #ff4fa3;
+  box-shadow: 0 0 12px rgba(255, 79, 163, 0.4);
+}
+
+.register-box > button:not(.back-home) {
+  width: 100%;
+  margin-top: 20px;
+  padding: 14px;
+
+  border: none;
+  border-radius: 25px;
+
+  background: linear-gradient(90deg, #7b2cbf, #9d4edd);
+  color: white;
+
+  font-weight: bold;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.register-box > button:not(.back-home):hover {
+  background: linear-gradient(90deg, #d63384, #ff4fa3);
+  transform: translateY(-2px);
+  box-shadow: 0 0 18px rgba(255, 79, 163, 0.5);
+}
+
+.register-login {
+  color: #eadcf5;
+  margin-top: 25px;
+  margin-bottom: -10px;
+}
+
+.register-box .login-btn {
+  background: #35145f;
+  border: 1px solid #c77dff;
+}
+
+.register-box .login-btn:hover {
+  background: #ff4fa3;
+}
+
+.register-bottom {
+  color: #bda9ca;
+  font-size: 13px;
+  margin-top: 25px;
+}
+
+@keyframes starBlink {
+  from {
+    opacity: 0.25;
+    transform: scale(0.8);
+  }
+
+  to {
+    opacity: 1;
+    transform: scale(1.4);
+  }
+}

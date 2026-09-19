@@ -1,0 +1,77 @@
+.about-page {
+  min-height: 100vh;
+  padding: 70px 80px;
+  background:
+    radial-gradient(circle at 20% 20%, #35145f, transparent 30%),
+    radial-gradient(circle at 80% 80%, #5b145b, transparent 30%),
+    linear-gradient(135deg, #050517, #10062b);
+  color: white;
+}
+
+.about-box {
+  max-width: 1000px;
+  margin: auto;
+  text-align: center;
+}
+
+.about-tag {
+  color: #ff91d7;
+  font-size: 12px;
+  letter-spacing: 2px;
+}
+
+.about-box h1 {
+  margin-top: 15px;
+  font-size: 45px;
+}
+
+.about-box h1 span {
+  color: #ff75ca;
+  text-shadow: 0 0 20px rgba(255, 117, 202, 0.5);
+}
+
+.about-text {
+  max-width: 700px;
+  margin: 20px auto 45px;
+  color: #aaa;
+  line-height: 1.7;
+  font-size: 16px;
+}
+
+.about-cards {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 22px;
+}
+
+.about-card {
+  padding: 30px 20px;
+  border-radius: 22px;
+  background: rgba(255, 255, 255, 0.07);
+  border: 1px solid rgba(255, 255, 255, 0.15);
+  transition: 0.3s;
+}
+
+.about-card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 0 30px rgba(255, 79, 189, 0.3);
+}
+
+.about-card div {
+  font-size: 40px;
+}
+
+.about-card h2 {
+  margin: 15px 0 10px;
+}
+
+.about-card p {
+  color: #aaa;
+  line-height: 1.5;
+}
+
+.college-name {
+  margin-top: 45px;
+  color: #888;
+  font-size: 14px;
+}

@@ -1,0 +1,113 @@
+.queue-page {
+  min-height: 100vh;
+  padding: 50px 20px;
+  background:
+    radial-gradient(circle at 50% 50%, #32105c 0%, #18002f 45%, #08000f 100%);
+  position: relative;
+  overflow: hidden;
+}
+
+.queue-box {
+  max-width: 600px;
+  margin: 30px auto;
+  padding: 40px;
+  text-align: center;
+
+  background: rgba(35, 8, 60, 0.8);
+  backdrop-filter: blur(12px);
+
+  border: 1px solid rgba(199, 125, 255, 0.3);
+  border-radius: 25px;
+
+  box-shadow: 0 0 35px rgba(155, 93, 229, 0.3);
+}
+
+.queue-icon {
+  font-size: 55px;
+  margin-bottom: 10px;
+}
+
+.queue-tag {
+  color: #c77dff;
+  font-weight: bold;
+  letter-spacing: 2px;
+}
+
+.queue-box h1 {
+  color: #f3ddff;
+  font-size: 36px;
+}
+
+.queue-box h1 span {
+  color: #d63384;
+}
+
+.queue-text {
+  color: #eadcf5;
+  margin-bottom: 25px;
+}
+
+.queue-box label {
+  display: block;
+  color: #e5c6ff;
+  margin-bottom: 8px;
+}
+
+.queue-box select {
+  width: 100%;
+  padding: 13px;
+  border-radius: 10px;
+  border: 1px solid #b76cff;
+  background: #23083c;
+  color: white;
+  margin-bottom: 20px;
+}
+
+.queue-box button {
+  padding: 13px 28px;
+  border: none;
+  border-radius: 30px;
+  background: #7b2cbf;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.queue-box button:hover {
+  background: #d63384;
+  transform: translateY(-3px);
+}
+
+.queue-result {
+  margin-top: 25px;
+  padding: 25px;
+
+  background: rgba(80, 30, 110, 0.5);
+  border-radius: 18px;
+  border: 1px solid #b76cff;
+
+  box-shadow: 0 0 25px rgba(199, 125, 255, 0.2);
+}
+
+.queue-result p {
+  color: #c77dff;
+  font-weight: bold;
+}
+
+.queue-result h2 {
+  font-size: 55px;
+  color: #ff4fa3;
+  margin: 10px;
+}
+
+.queue-result span,
+.queue-result small {
+  color: #eadcf5;
+}
+
+.queue-result hr {
+  border: none;
+  border-top: 1px solid rgba(199, 125, 255, 0.3);
+  margin: 15px 0;
+}

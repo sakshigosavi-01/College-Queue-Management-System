@@ -1,0 +1,135 @@
+.admin-page {
+  min-height: 100vh;
+  padding: 60px 20px;
+  background:
+    radial-gradient(circle at top, #4b1678, #18002f 55%, #08000f);
+}
+
+.admin-box {
+  max-width: 650px;
+  margin: auto;
+  padding: 45px;
+  text-align: center;
+  background: rgba(35, 8, 60, 0.9);
+  border: 1px solid rgba(255, 79, 163, 0.4);
+  border-radius: 28px;
+  box-shadow: 0 0 40px rgba(255, 79, 163, 0.2);
+}
+
+.admin-box > button {
+  padding: 11px 22px;
+  border: none;
+  border-radius: 25px;
+  background: #7b2cbf;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.admin-box > button:hover {
+  background: #d63384;
+}
+
+.admin-icon {
+  font-size: 65px;
+  margin: 25px 0 10px;
+}
+
+.admin-tag {
+  color: #ff8bc5;
+  font-weight: bold;
+  letter-spacing: 3px;
+}
+
+.admin-box h1 {
+  color: #ffffff;
+  font-size: 38px;
+  margin: 12px 0;
+}
+
+.admin-box h1 span {
+  color: #ff4fa3;
+}
+
+.admin-box p {
+  color: #eadcf5;
+}
+
+.admin-box label {
+  display: block;
+  text-align: left;
+  color: #f0cfff;
+  margin: 25px 0 8px;
+  font-weight: bold;
+}
+
+.admin-box select {
+  width: 100%;
+  padding: 14px;
+  border-radius: 12px;
+  border: 1px solid #c77dff;
+  background: #23083c;
+  color: white;
+  font-size: 15px;
+  outline: none;
+}
+
+.admin-box select:focus {
+  border-color: #ff4fa3;
+  box-shadow: 0 0 10px rgba(255, 79, 163, 0.4);
+}
+
+.admin-box > button:not(:first-child) {
+  margin-top: 20px;
+  background: linear-gradient(90deg, #7b2cbf, #d63384);
+}
+
+.admin-result {
+  margin-top: 30px;
+  padding: 30px 20px;
+  background: rgba(80, 30, 110, 0.55);
+  border-radius: 22px;
+  border: 1px solid #c77dff;
+}
+
+.admin-result p {
+  color: #ff8bc5;
+  font-weight: bold;
+  letter-spacing: 2px;
+}
+
+.admin-result h2 {
+  font-size: 65px;
+  color: #ff4fa3;
+  margin: 8px;
+}
+
+.admin-result span {
+  color: #eadcf5;
+}
+
+.admin-actions {
+  margin-top: 25px;
+}
+
+.admin-actions button {
+  padding: 13px 22px;
+  border: none;
+  border-radius: 25px;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.next-btn {
+  background: #ff4fa3 !important;
+}
+
+.complete-btn {
+  background: #6a4cff !important;
+}
+
+.admin-actions button:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 8px 20px rgba(255, 79, 163, 0.3);
+}
